@@ -1,0 +1,8 @@
+A proxy with akka.
+
+It supports http or https remote server.
+
+The profile is passed as a parameter:
+
+example:
+curl localhost:1080?profile=dev
