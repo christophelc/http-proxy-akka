@@ -1,0 +1,10 @@
+name: integration
+host: localhost
+port: 9000
+baseurl: /api
+authentication: 
+        bearer: $token.yaml
+header: 
+        X-Api-Version: 123
+        X-Canal : 456
+

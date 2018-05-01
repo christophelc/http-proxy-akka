@@ -1,0 +1,11 @@
+name: dev
+host: www.google.fr
+protocole: https
+port: 443
+baseurl: /
+authentication: 
+        bearer: $token.yaml
+header: 
+        X-Api-Version: 123
+        X-Canal : 456
+

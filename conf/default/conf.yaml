@@ -1,0 +1,11 @@
+name: default
+host: www.google.com
+protocole: http
+port: 80
+baseurl: /
+authentication: 
+        bearer: $token.yaml
+header: 
+        X-Api-Version: 123
+        X-Canal : 456
+
